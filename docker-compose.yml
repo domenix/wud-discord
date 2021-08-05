@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  wud-discord:
+    image: domenix/wud-discord
+    container_name: wud-discord
+    environment:
+        SERVER_NAME: <serverName>
+        CHANNEL_NAME: <channelName>
+        DISCORD_TOKEN: <discordToken>
+    restart: always

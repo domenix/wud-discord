@@ -1,0 +1,27 @@
+{
+  "name": "wud-discord",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/domenix/wud-discord.git"
+  },
+  "author": "domenix",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/domenix/wud-discord/issues"
+  },
+  "homepage": "https://github.com/domenix/wud-discord#readme",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
