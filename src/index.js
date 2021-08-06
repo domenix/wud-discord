@@ -31,10 +31,10 @@ function createVersionUpdateMessage(body, identifier) {
     const updateVersion = body.result.tag
 
     const message = new Discord.MessageEmbed()
-        .setColor('#0099ff')
+        .setColor('#f3ecdc')
         .setTitle(identifier)
         .setDescription(`Container: ${containerName}`)
-        .setThumbnail('https://www.docker.com/sites/default/files/d8/2019-07/vertical-logo-monochromatic.png')
+        .setThumbnail(`${process.env.THUMBNAIL_LINK}`)
         .addFields(
             { name: messageBodyProps.currentVersion, value: `${currentVersion}`, inline: true },
             { name: messageBodyProps.newVersion, value: `${updateVersion}`, inline: true },

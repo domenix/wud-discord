@@ -8,4 +8,5 @@ services:
         SERVER_NAME: <serverName>
         CHANNEL_NAME: <channelName>
         DISCORD_TOKEN: <discordToken>
+        THUMBNAIL_LINK: <link>
     restart: always
